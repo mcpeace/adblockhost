@@ -1,68 +1,286 @@
-star-mini.c10r.facebook.com
-star.c10r.facebook.com
-pagead-googlehosted.l.google.com
-gstatic.com
-graph.facebook.com
-adservice.google.com
-adservice.google.com.hk
-googlesyndication.com
-flurry.com
-g.doubleclick.net
-g01.yahoodns.net
-g04.yahoodns.net
-geo.yahoo.com
-itunes-apple.com.akadns.net
-ty01p01sa.guzzoni-apple.com.akadns.net
-p35-buy.itunes-apple.com.akadns.net
-p29-keyvalueservice.fe.apple-dns.net
-mu22p01sa.guzzoni-apple.com.akadns.net
-ysm.yahoo.com
-b.yahoo.com
-b.yahoodns.net
-s.gycs.b.yahoodns.net
-adex2.bmediaasia.com
-s0.2mdn.net
-xx.fbcdn.net
-crashlytics.com
-doubleclick.net
 # Spotify
-euadsapi.manhuaren.com
-xml.rxfclk3.com
-track.freemmo2017.com
-ads.yap.yahoo.com
-adeventtracker.spotify.com
-ads-akp.spotify.com
-audio-ak.spotify.com
-audio-akp.spotify.com
-analytics.spotify.com
-assets.spotify.com
-audio-cf.spotify.com
-audio-fa.spotify.com
-audio-fab.spotify.com
-audio-fac-spotify.com
-audio-gc.scdn.co
-audio-gc.spotify.com
-crashdump.spotify.com
-crashdump.ciqe-gslb.spotify.com
-heads-ak.spotify.com
-heads-akp.spotify.com
-heads-cf.spotify.com
-heads-fa.scdn.co
-heads-fa.spotify.com
-heads-fab.spotify.com
-heads-fac.spotify.com
-links.spotify.com
-log.spotify.com
-log2.spotify.com
-mp3ad.scdn.co
-partner-service.spotify.com
-partner-service-testing.spotify.com
-payment-callback.spotify.com
-pci.spotify.com
-pixel.spotify.com
-upgrade.scdn.co # optional
-upgrade.spotify.com # optional
-video-fa.scdn.co
-video-fa.cdn.spotify.com
-video-fa-b.cdn.spotify.com
+0.0.0.0 adeventtracker.spotify.com
+0.0.0.0 ads-akp.spotify.com
+0.0.0.0 audio-ak.spotify.com
+0.0.0.0 audio-akp.spotify.com
+0.0.0.0 analytics.spotify.com
+0.0.0.0 assets.spotify.com
+0.0.0.0 audio-cf.spotify.com
+0.0.0.0 audio-fa.scdn.co # do not block while using chromecast
+0.0.0.0 audio-fa.spotify.com
+0.0.0.0 audio-fab.spotify.com
+0.0.0.0 audio-fac-spotify.com
+0.0.0.0 audio-gc.scdn.co
+0.0.0.0 audio-gc.spotify.com
+0.0.0.0 crashdump.spotify.com
+0.0.0.0 crashdump.ciqe-gslb.spotify.com
+0.0.0.0 heads-ak.spotify.com
+0.0.0.0 heads-akp.spotify.com
+0.0.0.0 heads-cf.spotify.com
+0.0.0.0 heads-fa.scdn.co
+0.0.0.0 heads-fa.spotify.com
+0.0.0.0 heads-fab.spotify.com
+0.0.0.0 heads-fac.spotify.com
+0.0.0.0 links.spotify.com
+0.0.0.0 log.spotify.com
+0.0.0.0 log2.spotify.com
+0.0.0.0 mp3ad.scdn.co
+0.0.0.0 partner-service.spotify.com
+0.0.0.0 partner-service-testing.spotify.com
+0.0.0.0 payment-callback.spotify.com
+0.0.0.0 pci.spotify.com
+0.0.0.0 pixel.spotify.com
+0.0.0.0 upgrade.scdn.co # optional
+0.0.0.0 upgrade.spotify.com # optional
+0.0.0.0 video-fa.scdn.co
+0.0.0.0 video-fa.cdn.spotify.com
+0.0.0.0 video-fa-b.cdn.spotify.com
+# BLOCK THE FOLLOWING AKAMAI SERVERS #
+0.0.0.0 audio-ak-spotify-com.akamaized.net
+0.0.0.0 audio-ake.spotify.com.edgesuite.net
+0.0.0.0 audio-akp-spotify-com.akamaized.net
+0.0.0.0 audio-ak.spotify.com.edgesuite.net
+0.0.0.0 audio-akp.spotify.com.edgesuite.net
+0.0.0.0 audio4-ak.spotify.com.edgesuite.net
+0.0.0.0 audio4-akp.spotify.com.edgesuite.net
+0.0.0.0 audio-ak.spotify.com.eip.akadns.net
+0.0.0.0 eip-onnet.audio-ak.spotify.com.akahost.net
+0.0.0.0 eip-tata.audio-ak.spotify.com.akahost.net
+0.0.0.0 eip-ntt.audio-ak.spotify.com.akahost.net
+0.0.0.0 event.spotxchange.com
+0.0.0.0 heads-ak.spotify.com.edgesuite.net
+0.0.0.0 heads-akp.spotify.com.edgesuite.net
+0.0.0.0 heads4-ak.spotify.com.edgesuite.net
+0.0.0.0 heads4-akp.spotify.com.edgesuite.net
+0.0.0.0 search.spotxchange.com
+0.0.0.0 sync.search.spotxchange.com
+0.0.0.0 spotxchange.com
+0.0.0.0 www.spotx.tv
+0.0.0.0 00.video-ak.cdn.spotify.com
+0.0.0.0 01.video-ak.cdn.spotify.com
+0.0.0.0 02.video-ak.cdn.spotify.com
+0.0.0.0 03.video-ak.cdn.spotify.com
+0.0.0.0 04.video-ak.cdn.spotify.com
+0.0.0.0 05.video-ak.cdn.spotify.com
+0.0.0.0 06.video-ak.cdn.spotify.com
+0.0.0.0 07.video-ak.cdn.spotify.com
+0.0.0.0 08.video-ak.cdn.spotify.com
+0.0.0.0 09.video-ak.cdn.spotify.com
+0.0.0.0 10.video-ak.cdn.spotify.com
+0.0.0.0 11.video-ak.cdn.spotify.com
+0.0.0.0 12.video-ak.cdn.spotify.com
+0.0.0.0 13.video-ak.cdn.spotify.com
+0.0.0.0 14.video-ak.cdn.spotify.com
+0.0.0.0 15.video-ak.cdn.spotify.com
+0.0.0.0 16.video-ak.cdn.spotify.com
+0.0.0.0 17.video-ak.cdn.spotify.com
+0.0.0.0 18.video-ak.cdn.spotify.com
+0.0.0.0 19.video-ak.cdn.spotify.com
+0.0.0.0 1a.video-ak.cdn.spotify.com
+0.0.0.0 1b.video-ak.cdn.spotify.com
+0.0.0.0 1c.video-ak.cdn.spotify.com
+0.0.0.0 1d.video-ak.cdn.spotify.com
+0.0.0.0 1e.video-ak.cdn.spotify.com
+0.0.0.0 1f.video-ak.cdn.spotify.com
+0.0.0.0 20.video-ak.cdn.spotify.com
+0.0.0.0 21.video-ak.cdn.spotify.com
+0.0.0.0 22.video-ak.cdn.spotify.com
+0.0.0.0 23.video-ak.cdn.spotify.com
+0.0.0.0 24.video-ak.cdn.spotify.com
+0.0.0.0 25.video-ak.cdn.spotify.com
+0.0.0.0 26.video-ak.cdn.spotify.com
+0.0.0.0 27.video-ak.cdn.spotify.com
+0.0.0.0 28.video-ak.cdn.spotify.com
+0.0.0.0 29.video-ak.cdn.spotify.com
+0.0.0.0 2a.video-ak.cdn.spotify.com
+0.0.0.0 2b.video-ak.cdn.spotify.com
+0.0.0.0 2c.video-ak.cdn.spotify.com
+0.0.0.0 2d.video-ak.cdn.spotify.com
+0.0.0.0 2e.video-ak.cdn.spotify.com
+0.0.0.0 2f.video-ak.cdn.spotify.com
+0.0.0.0 30.video-ak.cdn.spotify.com
+0.0.0.0 31.video-ak.cdn.spotify.com
+0.0.0.0 32.video-ak.cdn.spotify.com
+0.0.0.0 33.video-ak.cdn.spotify.com
+0.0.0.0 34.video-ak.cdn.spotify.com
+0.0.0.0 35.video-ak.cdn.spotify.com
+0.0.0.0 36.video-ak.cdn.spotify.com
+0.0.0.0 37.video-ak.cdn.spotify.com
+0.0.0.0 38.video-ak.cdn.spotify.com
+0.0.0.0 39.video-ak.cdn.spotify.com
+0.0.0.0 3a.video-ak.cdn.spotify.com
+0.0.0.0 3b.video-ak.cdn.spotify.com
+0.0.0.0 3c.video-ak.cdn.spotify.com
+0.0.0.0 3d.video-ak.cdn.spotify.com
+0.0.0.0 3e.video-ak.cdn.spotify.com
+0.0.0.0 3f.video-ak.cdn.spotify.com
+0.0.0.0 40.video-ak.cdn.spotify.com
+0.0.0.0 41.video-ak.cdn.spotify.com
+0.0.0.0 42.video-ak.cdn.spotify.com
+0.0.0.0 43.video-ak.cdn.spotify.com
+0.0.0.0 44.video-ak.cdn.spotify.com
+0.0.0.0 45.video-ak.cdn.spotify.com
+0.0.0.0 46.video-ak.cdn.spotify.com
+0.0.0.0 47.video-ak.cdn.spotify.com
+0.0.0.0 48.video-ak.cdn.spotify.com
+0.0.0.0 49.video-ak.cdn.spotify.com
+0.0.0.0 4a.video-ak.cdn.spotify.com
+0.0.0.0 4b.video-ak.cdn.spotify.com
+0.0.0.0 4c.video-ak.cdn.spotify.com
+0.0.0.0 4d.video-ak.cdn.spotify.com
+0.0.0.0 4e.video-ak.cdn.spotify.com
+0.0.0.0 4f.video-ak.cdn.spotify.com
+0.0.0.0 50.video-ak.cdn.spotify.com
+0.0.0.0 51.video-ak.cdn.spotify.com
+0.0.0.0 52.video-ak.cdn.spotify.com
+0.0.0.0 53.video-ak.cdn.spotify.com
+0.0.0.0 54.video-ak.cdn.spotify.com
+0.0.0.0 55.video-ak.cdn.spotify.com
+0.0.0.0 56.video-ak.cdn.spotify.com
+0.0.0.0 64.video-ak.cdn.spotify.com
+0.0.0.0 6d.video-ak.cdn.spotify.com
+0.0.0.0 6e.video-ak.cdn.spotify.com
+0.0.0.0 6f.video-ak.cdn.spotify.com
+0.0.0.0 70.video-ak.cdn.spotify.com
+0.0.0.0 71.video-ak.cdn.spotify.com
+0.0.0.0 72.video-ak.cdn.spotify.com
+0.0.0.0 73.video-ak.cdn.spotify.com
+0.0.0.0 74.video-ak.cdn.spotify.com
+0.0.0.0 75.video-ak.cdn.spotify.com
+0.0.0.0 76.video-ak.cdn.spotify.com
+0.0.0.0 77.video-ak.cdn.spotify.com
+0.0.0.0 78.video-ak.cdn.spotify.com
+0.0.0.0 79.video-ak.cdn.spotify.com
+0.0.0.0 7a.video-ak.cdn.spotify.com
+0.0.0.0 7b.video-ak.cdn.spotify.com
+0.0.0.0 7c.video-ak.cdn.spotify.com
+0.0.0.0 7d.video-ak.cdn.spotify.com
+0.0.0.0 7e.video-ak.cdn.spotify.com
+0.0.0.0 7f.video-ak.cdn.spotify.com
+0.0.0.0 80.video-ak.cdn.spotify.com
+0.0.0.0 81.video-ak.cdn.spotify.com
+0.0.0.0 82.video-ak.cdn.spotify.com
+0.0.0.0 83.video-ak.cdn.spotify.com
+0.0.0.0 84.video-ak.cdn.spotify.com
+0.0.0.0 85.video-ak.cdn.spotify.com
+0.0.0.0 86.video-ak.cdn.spotify.com
+0.0.0.0 87.video-ak.cdn.spotify.com
+0.0.0.0 88.video-ak.cdn.spotify.com
+0.0.0.0 89.video-ak.cdn.spotify.com
+0.0.0.0 8a.video-ak.cdn.spotify.com
+0.0.0.0 8b.video-ak.cdn.spotify.com
+0.0.0.0 8c.video-ak.cdn.spotify.com
+0.0.0.0 8d.video-ak.cdn.spotify.com
+0.0.0.0 8e.video-ak.cdn.spotify.com
+0.0.0.0 8f.video-ak.cdn.spotify.com
+0.0.0.0 90.video-ak.cdn.spotify.com
+0.0.0.0 91.video-ak.cdn.spotify.com
+0.0.0.0 92.video-ak.cdn.spotify.com
+0.0.0.0 93.video-ak.cdn.spotify.com
+0.0.0.0 94.video-ak.cdn.spotify.com
+0.0.0.0 95.video-ak.cdn.spotify.com
+0.0.0.0 96.video-ak.cdn.spotify.com
+0.0.0.0 97.video-ak.cdn.spotify.com
+0.0.0.0 98.video-ak.cdn.spotify.com
+0.0.0.0 99.video-ak.cdn.spotify.com
+0.0.0.0 9a.video-ak.cdn.spotify.com
+0.0.0.0 9b.video-ak.cdn.spotify.com
+0.0.0.0 9c.video-ak.cdn.spotify.com
+0.0.0.0 9d.video-ak.cdn.spotify.com
+0.0.0.0 9e.video-ak.cdn.spotify.com
+0.0.0.0 9f.video-ak.cdn.spotify.com
+0.0.0.0 a0.video-ak.cdn.spotify.com
+0.0.0.0 a1.video-ak.cdn.spotify.com
+0.0.0.0 a2.video-ak.cdn.spotify.com
+0.0.0.0 a3.video-ak.cdn.spotify.com
+0.0.0.0 a4.video-ak.cdn.spotify.com
+0.0.0.0 a5.video-ak.cdn.spotify.com
+0.0.0.0 a6.video-ak.cdn.spotify.com
+0.0.0.0 a7.video-ak.cdn.spotify.com
+0.0.0.0 a8.video-ak.cdn.spotify.com
+0.0.0.0 a9.video-ak.cdn.spotify.com
+0.0.0.0 aa.video-ak.cdn.spotify.com
+0.0.0.0 ab.video-ak.cdn.spotify.com
+0.0.0.0 ac.video-ak.cdn.spotify.com
+0.0.0.0 ad.video-ak.cdn.spotify.com
+0.0.0.0 ae.video-ak.cdn.spotify.com
+0.0.0.0 af.video-ak.cdn.spotify.com
+0.0.0.0 b0.video-ak.cdn.spotify.com
+0.0.0.0 b1.video-ak.cdn.spotify.com
+0.0.0.0 b2.video-ak.cdn.spotify.com
+0.0.0.0 b3.video-ak.cdn.spotify.com
+0.0.0.0 b4.video-ak.cdn.spotify.com
+0.0.0.0 b5.video-ak.cdn.spotify.com
+0.0.0.0 b6.video-ak.cdn.spotify.com
+0.0.0.0 b7.video-ak.cdn.spotify.com
+0.0.0.0 b8.video-ak.cdn.spotify.com
+0.0.0.0 b9.video-ak.cdn.spotify.com
+0.0.0.0 ba.video-ak.cdn.spotify.com
+0.0.0.0 bb.video-ak.cdn.spotify.com
+0.0.0.0 bc.video-ak.cdn.spotify.com
+0.0.0.0 bd.video-ak.cdn.spotify.com
+0.0.0.0 be.video-ak.cdn.spotify.com
+0.0.0.0 bf.video-ak.cdn.spotify.com
+0.0.0.0 c0.video-ak.cdn.spotify.com
+0.0.0.0 c1.video-ak.cdn.spotify.com
+0.0.0.0 c2.video-ak.cdn.spotify.com
+0.0.0.0 c3.video-ak.cdn.spotify.com
+0.0.0.0 c4.video-ak.cdn.spotify.com
+0.0.0.0 c5.video-ak.cdn.spotify.com
+0.0.0.0 c6.video-ak.cdn.spotify.com
+0.0.0.0 c7.video-ak.cdn.spotify.com
+0.0.0.0 c8.video-ak.cdn.spotify.com
+0.0.0.0 c9.video-ak.cdn.spotify.com
+0.0.0.0 ca.video-ak.cdn.spotify.com
+0.0.0.0 cb.video-ak.cdn.spotify.com
+0.0.0.0 cc.video-ak.cdn.spotify.com
+0.0.0.0 cd.video-ak.cdn.spotify.com
+0.0.0.0 ce.video-ak.cdn.spotify.com
+0.0.0.0 cf.video-ak.cdn.spotify.com
+0.0.0.0 d0.video-ak.cdn.spotify.com
+0.0.0.0 d1.video-ak.cdn.spotify.com
+0.0.0.0 d2.video-ak.cdn.spotify.com
+0.0.0.0 d3.video-ak.cdn.spotify.com
+0.0.0.0 d4.video-ak.cdn.spotify.com
+0.0.0.0 d5.video-ak.cdn.spotify.com
+0.0.0.0 d6.video-ak.cdn.spotify.com
+0.0.0.0 d7.video-ak.cdn.spotify.com
+0.0.0.0 d8.video-ak.cdn.spotify.com
+0.0.0.0 d9.video-ak.cdn.spotify.com
+0.0.0.0 da.video-ak.cdn.spotify.com
+0.0.0.0 db.video-ak.cdn.spotify.com
+0.0.0.0 dc.video-ak.cdn.spotify.com
+0.0.0.0 dd.video-ak.cdn.spotify.com
+0.0.0.0 de.video-ak.cdn.spotify.com
+0.0.0.0 df.video-ak.cdn.spotify.com
+0.0.0.0 e0.video-ak.cdn.spotify.com
+0.0.0.0 e1.video-ak.cdn.spotify.com
+0.0.0.0 e2.video-ak.cdn.spotify.com
+0.0.0.0 e3.video-ak.cdn.spotify.com
+0.0.0.0 e4.video-ak.cdn.spotify.com
+0.0.0.0 e5.video-ak.cdn.spotify.com
+0.0.0.0 e6.video-ak.cdn.spotify.com
+0.0.0.0 e7.video-ak.cdn.spotify.com
+0.0.0.0 e8.video-ak.cdn.spotify.com
+0.0.0.0 e9.video-ak.cdn.spotify.com
+0.0.0.0 ea.video-ak.cdn.spotify.com
+0.0.0.0 eb.video-ak.cdn.spotify.com
+0.0.0.0 ec.video-ak.cdn.spotify.com
+0.0.0.0 ed.video-ak.cdn.spotify.com
+0.0.0.0 ee.video-ak.cdn.spotify.com
+0.0.0.0 ef.video-ak.cdn.spotify.com
+0.0.0.0 f0.video-ak.cdn.spotify.com
+0.0.0.0 f1.video-ak.cdn.spotify.com
+0.0.0.0 f2.video-ak.cdn.spotify.com
+0.0.0.0 f3.video-ak.cdn.spotify.com
+0.0.0.0 f4.video-ak.cdn.spotify.com
+0.0.0.0 f5.video-ak.cdn.spotify.com
+0.0.0.0 f6.video-ak.cdn.spotify.com
+0.0.0.0 f7.video-ak.cdn.spotify.com
+0.0.0.0 f8.video-ak.cdn.spotify.com
+0.0.0.0 f9.video-ak.cdn.spotify.com
+0.0.0.0 fc.video-ak.cdn.spotify.com
+0.0.0.0 fd.video-ak.cdn.spotify.com
+0.0.0.0 fe.video-ak.cdn.spotify.com
+0.0.0.0 ff.video-ak.cdn.spotify.com
 # Spotify End
