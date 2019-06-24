@@ -10,8 +10,6 @@ bs.serving-sys.com
 content.bitsontherun.com
 core.insightexpressai.com
 crashdump.spotify.com
-d2gi7ultltnc2u.cloudfront.net
-d3rt1990lpmkn.cloudfront.net
 desktop.spotify.com
 doubleclick.net
 ds.serving-sys.com
@@ -57,7 +55,13 @@ click.alibaba.com
 ad4.com.cn
 appjiagu.com
 andrcool.com
-#custom
+#Sublime Text
+license.sublimehq.com
+license.sublimehq.com
+sublimetext.com
+sublimehq.com
+telemetry.sublimehq.com
+#CUSTOM START
 beap.gemini.yahoo.com
 blockadblock.com
 click.mobixmedia.net
